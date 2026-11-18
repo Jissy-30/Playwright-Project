@@ -47,7 +47,7 @@ test('TC8 Product under Phones', async({customfixture})=>
     
 })
 
-test('TC9 Product under Monitors', async({customfixture})=>
+test('TC9 Product under Monitors @login', async({customfixture})=>
 {
     let lob = new login(customfixture)
     await lob.loginbutton()

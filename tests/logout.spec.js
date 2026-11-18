@@ -2,7 +2,7 @@ const{test,expect}=require('@playwright/test')
 const login = require('../page/login')
 const dataset = require('../utils/validcredential.json')
 const logout = require('../page/logout')
-test('TC10 logout', async({page})=>
+test('TC10 logout @login', async({page})=>
 {
     let lob = new login(page)
     await lob.acessurl()

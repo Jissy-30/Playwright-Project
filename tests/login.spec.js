@@ -3,7 +3,7 @@ const login = require('../page/login')
 const dataset = require('../utils/validcredential.json')
 const dataset1 = require('../utils/invalidcredential.json')
 const purchase = require('../page/purchase')
-test('TC3 Login with Valid Credentials', async({page})=>
+test('TC3 Login with Valid Credentials @login', async({page})=>
 {
     let lob = new login(page)
     await lob.acessurl()
